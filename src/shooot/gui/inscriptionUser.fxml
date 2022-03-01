@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="361.0" prefWidth="581.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shooot.gui.InscriptionUserController">
+   <children>
+      <Label layoutX="77.0" layoutY="91.0" text="Prenom" />
+      <Label layoutX="77.0" layoutY="189.0" text="numero" />
+      <Label layoutX="77.0" layoutY="126.0" text="Nom" />
+      <Label layoutX="76.0" layoutY="225.0" text="Email" />
+      <Label layoutX="77.0" layoutY="255.0" text="confirmer " />
+      <Label layoutX="77.0" layoutY="271.0" text="mot de pass " />
+      <TextField fx:id="tfPrenom" layoutX="165.0" layoutY="91.0" />
+      <TextField fx:id="tfNom" layoutX="165.0" layoutY="124.0" />
+      <TextField fx:id="tfNum" layoutX="165.0" layoutY="191.0" />
+      <TextField fx:id="tfEmail" layoutX="165.0" layoutY="226.0" />
+      <TextField fx:id="tfPwd" layoutX="165.0" layoutY="259.0" />
+      <TextField fx:id="tfPwd2" layoutX="165.0" layoutY="292.0" />
+      <Label layoutX="75.0" layoutY="305.0" text="mot de passe" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fill="#d74e4e" layoutX="111.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="inscription">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></Text>
+      <Button layoutX="259.0" layoutY="330.0" mnemonicParsing="false" onAction="#saveUser" text="confirmer" />
+      <Hyperlink layoutX="78.0" layoutY="331.0" text="j'ai deja un compte" />
+      <TextField fx:id="tfUn" layoutX="165.0" layoutY="156.0" />
+      <Label layoutX="77.0" layoutY="160.0" text="UserName" />
+      <ImageView fx:id="img" fitHeight="391.0" fitWidth="245.0" layoutX="336.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../../../../Downloads/JUST%20DO%20IT.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
