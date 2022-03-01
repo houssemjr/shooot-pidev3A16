@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.shooot.gui.JoueurController">
+   <children>
+      <VBox layoutX="16.0" layoutY="106.0" prefHeight="247.0" prefWidth="127.0" spacing="20.0">
+         <children>
+            <Label text="Nom">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Date de naissance">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Nom de l'équipe">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Prix">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Valeur actuelle">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Image">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="154.0" layoutY="103.0" prefHeight="247.0" prefWidth="161.0" spacing="16.0">
+         <children>
+            <JFXTextField fx:id="tfNom" focusColor="#009688" />
+            <JFXDatePicker fx:id="tfDate" />
+            <JFXTextField fx:id="tfEquipe" />
+            <JFXTextField fx:id="tfPrix" focusColor="#009688" />
+            <JFXTextField fx:id="tfValeur" focusColor="#009688" />
+            <JFXTextField fx:id="tfImage" focusColor="#009688" />
+         </children>
+      </VBox>
+      <TableView fx:id="tvJoueur" layoutX="334.0" layoutY="79.0" prefHeight="517.0" prefWidth="838.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="59.0" text="ID" />
+          <TableColumn fx:id="colNom" prefWidth="91.0" text="Nom" />
+            <TableColumn fx:id="colDate" prefWidth="138.0" text="Date de naissance" />
+            <TableColumn fx:id="colEquipe" prefWidth="118.0" text="Nom equipe" />
+            <TableColumn fx:id="colPrix" minWidth="1.0" prefWidth="112.0" text="Prix" />
+            <TableColumn fx:id="colValeur" minWidth="3.0" prefWidth="106.0" text="Valeur actuelle" />
+            <TableColumn fx:id="colImage" minWidth="0.0" prefWidth="90.0" text="Image" />
+            <TableColumn fx:id="editcol" minWidth="9.0" prefWidth="122.0" />
+        </columns>
+      </TableView>
+      <FontAwesomeIconView glyphName="CLOSE" layoutX="1180.0" layoutY="19.0" onMouseClicked="#close" size="20" styleClass="btn" text="" />
+      <JFXButton fx:id="btnAjouter" layoutX="190.0" layoutY="362.0" onAction="#AjouterJoueur" text="Ajouter" textFill="#009688">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="retour" layoutX="1.0" layoutY="2.0" onMouseClicked="#home" text="RETOUR">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

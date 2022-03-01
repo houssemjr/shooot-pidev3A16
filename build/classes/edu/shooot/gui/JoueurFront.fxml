@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.shooot.gui.JoueurFrontController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#727475" height="602.0" layoutY="210.0" stroke="WHITE" strokeType="INSIDE" width="1229.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#009688" height="209.0" layoutY="1.0" stroke="WHITE" strokeType="INSIDE" width="1229.0" />
+      <FontAwesomeIconView glyphName="CLOSE" layoutX="1183.0" layoutY="38.0" onMouseClicked="#close" size="20" styleClass="btn" text="" />
+      <Text fill="WHITE" layoutX="543.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JOUEUR">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Line endX="593.0" endY="-1.52587890625E-5" layoutX="159.0" layoutY="136.0" startX="318.0" startY="-1.52587890625E-5" stroke="WHITE" />
+      <TableView fx:id="tvJoueur" layoutX="196.0" layoutY="299.0" prefHeight="424.0" prefWidth="838.0">
+         <columns>
+            <TableColumn fx:id="colId" prefWidth="59.0" text="ID" />
+            <TableColumn fx:id="colNom" prefWidth="91.0" text="Nom" />
+            <TableColumn fx:id="colDate" prefWidth="138.0" text="Date de naissance" />
+            <TableColumn fx:id="colEquipe" prefWidth="118.0" text="Nom equipe" />
+            <TableColumn fx:id="colPrix" minWidth="1.0" prefWidth="112.0" text="Prix" />
+            <TableColumn fx:id="colValeur" minWidth="3.0" prefWidth="106.0" text="Valeur actuelle" />
+            <TableColumn fx:id="colImage" minWidth="0.0" prefWidth="90.0" text="Image" />
+            <TableColumn fx:id="editcol" minWidth="9.0" prefWidth="122.0" />
+         </columns>
+      </TableView>
+      <Label fx:id="retour" layoutX="3.0" layoutY="4.0" onMouseClicked="#home" text="RETOUR">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

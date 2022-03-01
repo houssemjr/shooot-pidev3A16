@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.shooot.gui.EquipeController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="5.0" prefHeight="800.0" prefWidth="1200.0">
+         <children>
+            <VBox layoutX="31.0" layoutY="103.0" prefHeight="132.0" prefWidth="63.0" spacing="20.0">
+               <children>
+                  <Label text="Nom">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Pays">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Logo">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="92.0" layoutY="102.0" prefHeight="132.0" prefWidth="201.0" spacing="15.0">
+               <children>
+                  <JFXTextField fx:id="tfNom" focusColor="#009688" />
+                  <JFXTextField fx:id="tfPays" focusColor="#009688" />
+                  <JFXTextField fx:id="tfLogo" focusColor="#009866" />
+               </children>
+            </VBox>
+            <TableView fx:id="tvEquipe" layoutX="329.0" layoutY="77.0" prefHeight="558.0" prefWidth="664.0">
+               <columns>
+                  <TableColumn fx:id="colId" prefWidth="70.0" text="ID" />
+                  <TableColumn fx:id="colNom" prefWidth="157.0" text="Nom" />
+                  <TableColumn fx:id="colPays" prefWidth="157.0" text="Pays" />
+                  <TableColumn fx:id="colLogo" prefWidth="162.0" text="Logo" />
+                  <TableColumn fx:id="editcol" prefWidth="117.0" />
+               </columns>
+            </TableView>
+            <FontAwesomeIconView glyphName="CLOSE" layoutX="1175.0" layoutY="22.0" onMouseClicked="#close" size="20" styleClass="btn" text="" />
+            <JFXButton fx:id="btnAjouter" layoutX="158.0" layoutY="246.0" onAction="#AjouterEquipe" text="Ajouter" textFill="#009688">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label fx:id="retour" layoutX="2.0" onMouseClicked="#home" text="RETOUR">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

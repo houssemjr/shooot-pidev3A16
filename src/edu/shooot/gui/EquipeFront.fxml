@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.shooot.gui.EquipeFrontController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#727475" height="602.0" layoutY="200.0" stroke="WHITE" strokeType="INSIDE" width="1219.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#009688" height="200.0" stroke="WHITE" strokeType="INSIDE" width="1219.0" />
+      <Text fill="WHITE" layoutX="534.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EQUIPE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Line endX="593.0" endY="-1.52587890625E-5" layoutX="145.0" layoutY="136.0" startX="318.0" startY="-1.52587890625E-5" stroke="WHITE" />
+      <TableView fx:id="tvEquipe" layoutX="268.0" layoutY="269.0" prefHeight="420.0" prefWidth="664.0">
+         <columns>
+            <TableColumn fx:id="colId" prefWidth="70.0" text="ID" />
+            <TableColumn fx:id="colNom" prefWidth="157.0" text="Nom" />
+            <TableColumn fx:id="colPays" prefWidth="157.0" text="Pays" />
+            <TableColumn fx:id="colLogo" prefWidth="162.0" text="Logo" />
+            <TableColumn fx:id="editcol" prefWidth="117.0" />
+         </columns>
+      </TableView>
+      <FontAwesomeIconView glyphName="CLOSE" layoutX="1182.0" layoutY="29.0" onMouseClicked="#close" size="20" styleClass="btn" text="" />
+      <Label fx:id="retour" layoutX="3.0" layoutY="3.0" onMouseClicked="#home" text="RETOUR">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
