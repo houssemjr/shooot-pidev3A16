@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ed.shoot.Gui.PanController">
+   <children>
+      <TableView fx:id="tabp" layoutX="6.0" layoutY="7.0" prefHeight="217.0" prefWidth="585.0">
+        <columns>
+          <TableColumn fx:id="p1" prefWidth="96.0" text="carte N" />
+          <TableColumn fx:id="p2" prefWidth="139.0" text="Nom joueur" />
+            <TableColumn fx:id="p3" prefWidth="139.0" text="Prenom joueur" />
+            <TableColumn fx:id="p4" prefWidth="139.0" text="Prix Carte" />
+        </columns>
+      </TableView>
+      <Button fx:id="idref" layoutX="269.0" layoutY="250.0" mnemonicParsing="false" onAction="#ref1" text="refresh" />
+      <TextField fx:id="totalapayer" layoutX="226.0" layoutY="349.0" onAction="#totalap" />
+      <Button fx:id="btnpayer" layoutX="200.0" layoutY="250.0" mnemonicParsing="false" onAction="#btpayer" text="payer" />
+      <Button fx:id="btndelete" layoutX="349.0" layoutY="250.0" mnemonicParsing="false" onAction="#btdelete" text="delete" />
+   </children>
+</AnchorPane>

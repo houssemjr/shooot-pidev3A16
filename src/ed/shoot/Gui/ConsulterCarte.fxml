@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ed.shoot.Gui.ConsulterCarteController">
+   <children>
+      <HBox alignment="CENTER" layoutX="558.0" layoutY="166.0" prefHeight="444.0" prefWidth="699.0">
+         <children>
+            <ScrollPane fx:id="scroll" prefHeight="444.0" prefWidth="629.0" styleClass="transparent">
+               <content>
+                  <GridPane fx:id="grid" prefHeight="7.0" prefWidth="111.0">
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                     </rowConstraints>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </HBox>
+      <VBox alignment="TOP_CENTER" layoutX="125.0" layoutY="89.0" prefHeight="286.0" prefWidth="265.0" styleClass="mainFxmlClass" stylesheets="@carte.css">
+         <children>
+            <HBox prefHeight="29.0" prefWidth="140.0">
+               <children>
+                  <Label fx:id="levelLabel" prefHeight="33.0" prefWidth="161.0" text="Cherry">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="priceLable" prefHeight="33.0" prefWidth="119.0" text="\$0.99">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <TextField fx:id="productID" editable="false" visible="false" />
+            <ImageView fx:id="img" fitHeight="134.0" fitWidth="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/salah.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+            </ImageView>
+            <TextField fx:id="idProduichosen" prefHeight="25.0" prefWidth="218.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

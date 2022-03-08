@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="ed.shoot.Gui.SearchCarteController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TableView fx:id="tab1" layoutX="8.0" layoutY="109.0" prefHeight="291.0" prefWidth="588.0">
+               <columns>
+                  <TableColumn fx:id="cl1" prefWidth="75.0" text="id" />
+                  <TableColumn fx:id="cl2" prefWidth="75.0" text="nom" />
+                  <TableColumn fx:id="cl3" prefWidth="75.0" text="prenom" />
+                  <TableColumn fx:id="cl4" prefWidth="75.0" text="leve" />
+                  <TableColumn fx:id="cl5" prefWidth="75.0" text="prix" />
+                  <TableColumn fx:id="cl6" prefWidth="75.0" text="id_premuim" />
+                  <TableColumn fx:id="cl7" prefWidth="75.0" text="image" />
+               </columns>
+            </TableView>
+            <TextField fx:id="nsearch" layoutX="203.0" layoutY="49.0" onAction="#dll" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

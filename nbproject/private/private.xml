@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/MainpageController.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/signUp.fxml</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/main.css</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/SignUpController.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/edu/shoot/entities/Panier.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/NewFXMain.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/main.fxml</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/ConsulterCarte.fxml</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/edu/shoot/services/CrudCarte.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/mainpage.fxml</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/consultercarte.css</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/edu/shoot/entities/Carte.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/sigin.css</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/signup.css</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/CarteController.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/Carte.fxml</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/edu/shoot/services/Crudpanier.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/MainController.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/SigInController.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/mainpage.css</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/ConsulterCarteController.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/carte.css</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/edu/shoot/utiles/MyConnection.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/ed/shoot/Gui/sigIn.fxml</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/edu/shoot/entities/joueur.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/edu/shoot/tests/Shoot10.java</file>
+            <file>file:/Users/houssemjrad/NetBeansProjects/shoot10/src/edu/shoot/entities/abonnement.java</file>
+        </group>
+    </open-files>
+</project-private>
