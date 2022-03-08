@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="551.0" prefWidth="989.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="gui.StatAllController">
+   <children>
+      <TableView fx:id="table1" layoutX="291.0" layoutY="14.0" prefHeight="200.0" prefWidth="684.0">
+        <columns>
+          <TableColumn fx:id="fxId_match" prefWidth="75.0" text="Id_match" />
+          <TableColumn fx:id="fxTitreMatch" prefWidth="75.0" sortType="DESCENDING" text="TitreMatch" />
+            <TableColumn fx:id="fxBut" prefWidth="75.0" text="But" />
+            <TableColumn fx:id="fxButeur" prefWidth="81.0" text="N_Buteur" />
+            <TableColumn fx:id="fxPasseur" prefWidth="89.0" text="N_Passeur" />
+            <TableColumn fx:id="fxCorner" prefWidth="98.0" text="Nb_Corner" />
+            <TableColumn fx:id="fxFaute" prefWidth="85.0" text="Nb_faute" />
+            <TableColumn fx:id="fxCarton" minWidth="9.0" prefWidth="92.0" text="Nb_Carton" />
+        </columns>
+      </TableView>
+      <Label layoutX="21.0" layoutY="14.0" text="TitreMatch" />
+      <Label layoutX="21.0" layoutY="54.0" text="But" />
+      <Label layoutX="21.0" layoutY="97.0" text="N_Buteur" />
+      <Label layoutX="21.0" layoutY="141.0" text="N_Passeur" />
+      <Label layoutX="21.0" layoutY="178.0" text="Nb_Corner" />
+      <Label layoutX="21.0" layoutY="220.0" text="Nb_faute" />
+      <Label layoutX="21.0" layoutY="259.0" text="Nb_Carton" />
+      <TextField fx:id="t11" layoutX="104.0" layoutY="11.0" />
+      <TextField fx:id="t22" layoutX="104.0" layoutY="50.0" />
+      <TextField fx:id="t33" layoutX="106.0" layoutY="94.0" />
+      <TextField fx:id="t44" layoutX="109.0" layoutY="138.0" />
+      <TextField fx:id="t55" layoutX="106.0" layoutY="175.0" />
+      <TextField fx:id="t66" layoutX="111.0" layoutY="217.0" />
+      <TextField fx:id="t77" layoutX="111.0" layoutY="255.0" />
+      <Button fx:id="bs" layoutX="118.0" layoutY="316.0" mnemonicParsing="false" onAction="#selectaff" text="Select" />
+      <Button fx:id="BU" layoutX="197.0" layoutY="392.0" mnemonicParsing="false" onAction="#updateselection" text="UPDATE" />
+      <Button fx:id="BD" layoutX="32.0" layoutY="392.0" mnemonicParsing="false" onAction="#deleteselection" text="DELETE" />
+   </children>
+</AnchorPane>

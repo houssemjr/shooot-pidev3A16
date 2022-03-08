@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/StatistiqueController.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/edu/shooot/entities/Match.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/edu/shooot/entities/Statistique.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/AjouterStat.fxml</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/MatchController.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/StatCorner.fxml</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/AffichageMatch.fxml</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/FXMain.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/StatCarton.fxml</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/AjouterStatController.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/edu/shooot/tests/MainClass.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/AffichageMatchController.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/StatCartonController.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/StatCornerController.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/edu/shooot/utiles/MyConnection.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/StatAllController.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/edu/shooot/services/MatchCRUD.java</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/gui/StatAll.fxml</file>
+            <file>file:/C:/Users/khali/OneDrive/Documents/NetBeansProjects/ConnexionJDBC/src/edu/shooot/services/StatistiqueCRUD.java</file>
+        </group>
+    </open-files>
+</project-private>

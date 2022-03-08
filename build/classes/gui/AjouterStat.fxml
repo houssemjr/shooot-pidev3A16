@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="466.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="gui.AjouterStatController">
+   <children>
+      <Label layoutX="132.0" layoutY="53.0" text="TitreMatch" />
+      <Label layoutX="132.0" layoutY="91.0" text="But" />
+      <Label layoutX="132.0" layoutY="135.0" text="N_Buteur" />
+      <Label layoutX="132.0" layoutY="175.0" text="N_Passeur" />
+      <Label layoutX="132.0" layoutY="215.0" text="Nb_Corner" />
+      <Label layoutX="132.0" layoutY="254.0" text="Nb_faute" />
+      <Label layoutX="132.0" layoutY="294.0" text="Nb_Carton" />
+      <Button fx:id="btnAjouter" layoutX="239.0" layoutY="341.0" mnemonicParsing="false" onAction="#SaveStat" prefHeight="25.0" prefWidth="105.0" text="Ajouter" />
+      <TextField fx:id="txTM" layoutX="251.0" layoutY="49.0" />
+      <TextField fx:id="txB" layoutX="251.0" layoutY="87.0" />
+      <TextField fx:id="txBu" layoutX="251.0" layoutY="131.0" />
+      <TextField fx:id="txP" layoutX="251.0" layoutY="171.0" />
+      <TextField fx:id="txCo" layoutX="251.0" layoutY="211.0" />
+      <TextField fx:id="fxF" layoutX="251.0" layoutY="250.0" />
+      <TextField fx:id="fxCa" layoutX="251.0" layoutY="290.0" />
+      <TextField fx:id="txID" layoutX="251.0" layoutY="14.0" />
+      <Label layoutX="135.0" layoutY="18.0" text="Id_match" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="938.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.StatistiqueController">
+   <children>
+      <TableView fx:id="fxtable2" layoutX="24.0" layoutY="32.0" prefHeight="241.0" prefWidth="889.0">
+        <columns>
+          <TableColumn fx:id="fxId_match" prefWidth="75.0" text="Id_match" />
+          <TableColumn fx:id="fxBut" prefWidth="75.0" text="But" />
+            <TableColumn fx:id="fxN_Buteur" prefWidth="133.0" text="N_Buteur" />
+            <TableColumn fx:id="fxN_Passeur" prefWidth="131.0" text="N_Passeur" />
+            <TableColumn fx:id="fxNb_Corner" prefWidth="104.0" text="Nb_Corner" />
+            <TableColumn fx:id="fxNb_faute" prefWidth="106.0" text="Nb_Faute" />
+            <TableColumn fx:id="fxNb_Carton" prefWidth="121.0" text="Nb_Carton" />
+            <TableColumn fx:id="fxTitreMatch" prefWidth="143.0" text="TitreMatch" />
+        </columns>
+      </TableView>
+      <BarChart fx:id="barChart" layoutX="85.0" layoutY="279.0" prefHeight="284.0" prefWidth="708.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

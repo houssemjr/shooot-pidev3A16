@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MatchController">
+   <children>
+      <Label layoutX="24.0" layoutY="129.0" text="Id_equipe1" />
+      <Label layoutX="339.0" layoutY="129.0" text="Id_equipe2" />
+      <Label fx:id="t" layoutX="31.0" layoutY="32.0" text="Id_match" />
+      <Label layoutX="339.0" layoutY="32.0" text="Date" />
+      <Label layoutX="14.0" layoutY="301.0" text="Id_statistique" />
+      <Label layoutX="307.0" layoutY="301.0" text="Id_pronostic" />
+      <Label layoutX="139.0" layoutY="250.0" text="Id_competition" />
+      <TextField fx:id="txId_match" layoutX="92.0" layoutY="28.0" />
+      <TextField fx:id="tfDate" layoutX="391.0" layoutY="28.0" />
+      <TextField fx:id="tfId_equipe1" layoutX="81.0" layoutY="188.0" />
+      <TextField fx:id="tfId_equipe2" layoutX="391.0" layoutY="188.0" />
+      <TextField fx:id="tfId_statistique" layoutX="87.0" layoutY="297.0" />
+      <TextField fx:id="tfId_competition" layoutX="240.0" layoutY="246.0" />
+      <TextField fx:id="tfId_pronostic" layoutX="391.0" layoutY="297.0" />
+      <Button fx:id="btnAjouter" layoutX="254.0" layoutY="361.0" mnemonicParsing="false" onAction="#SaveMatch" text="Ajouter Match" />
+      <ImageView fx:id="IMG1" fitHeight="119.0" fitWidth="165.0" layoutX="97.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Equipe1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="IMG2" fitHeight="119.0" fitWidth="149.0" layoutX="413.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Equipe2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

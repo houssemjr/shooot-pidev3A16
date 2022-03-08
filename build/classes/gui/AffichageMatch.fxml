@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="765.0" prefWidth="1007.0" style="-fx-background-color: #6d071a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AffichageMatchController">
+   <children>
+      <TableView fx:id="table" layoutX="263.0" layoutY="83.0" prefHeight="515.0" prefWidth="730.0" AnchorPane.bottomAnchor="167.0" AnchorPane.leftAnchor="263.0" AnchorPane.topAnchor="83.0">
+        <columns>
+            <TableColumn fx:id="fxId_equipe1" minWidth="0.0" prefWidth="0.0" text="Id_equipe1" />
+          <TableColumn fx:id="fxId_match" prefWidth="75.0" text="Id_Match" />
+          <TableColumn fx:id="fxdate" prefWidth="99.0" text="Date" />
+            <TableColumn fx:id="fxId_equipe1" prefWidth="113.0" text="Id_equipe1" />
+            <TableColumn fx:id="fxId_equipe2" prefWidth="92.0" text="Id_equipe2" />
+            <TableColumn fx:id="fxId_comp" prefWidth="102.0" text="Id_comp" />
+            <TableColumn fx:id="fxId_stat" minWidth="0.0" prefWidth="96.0" text="Id_stat" />
+            <TableColumn fx:id="fxId_prono" minWidth="0.0" prefWidth="119.0" text="Id_prono" />
+        </columns>
+      </TableView>
+      <Button fx:id="fxBS" layoutX="61.0" layoutY="426.0" mnemonicParsing="false" onAction="#Statistique" prefHeight="25.0" prefWidth="155.0" text="Statistique_But">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="fxBD" layoutX="38.0" layoutY="382.0" mnemonicParsing="false" onAction="#deleteseletion" text="DELETE" />
+      <Label layoutX="11.0" layoutY="44.0" text="Id_Match" textFill="#f2e9e9" AnchorPane.leftAnchor="11.0">
+         <effect>
+            <Bloom />
+         </effect></Label>
+      <Label layoutX="23.0" layoutY="89.0" text="Date" textFill="WHITE">
+         <effect>
+            <Bloom />
+         </effect></Label>
+      <Label layoutX="11.0" layoutY="132.0" text="Id_equipe1" textFill="#f5f3f3">
+         <effect>
+            <Bloom />
+         </effect></Label>
+      <Label layoutX="13.0" layoutY="175.0" text="Id_equpe2" textFill="#fff8f8">
+         <effect>
+            <Bloom />
+         </effect></Label>
+      <Label layoutX="24.0" layoutY="216.0" text="Id_comp" textFill="#fffbfb">
+         <effect>
+            <Bloom />
+         </effect></Label>
+      <Label layoutX="23.0" layoutY="259.0" text="Id_stat" textFill="#f8f4f4">
+         <effect>
+            <Bloom />
+         </effect></Label>
+      <Label layoutX="17.0" layoutY="304.0" text="Id_prono" textFill="#fff6f6">
+         <effect>
+            <Bloom />
+         </effect></Label>
+      <TextField fx:id="t1" layoutX="80.0" layoutY="40.0" />
+      <TextField fx:id="t2" layoutX="80.0" layoutY="85.0" />
+      <TextField fx:id="t3" layoutX="80.0" layoutY="128.0" />
+      <TextField fx:id="t4" layoutX="80.0" layoutY="171.0" />
+      <TextField fx:id="t5" layoutX="80.0" layoutY="212.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="t6" layoutX="80.0" layoutY="255.0" />
+      <TextField fx:id="t7" layoutX="80.0" layoutY="300.0" />
+      <Button fx:id="bs1" layoutX="115.0" layoutY="340.0" mnemonicParsing="false" onAction="#selectaff" text="Select" />
+      <Button fx:id="FXBU" layoutX="179.0" layoutY="382.0" mnemonicParsing="false" onAction="#updateselection" text="UPDATE" />
+      <Button fx:id="fxBS1" layoutX="61.0" layoutY="459.0" mnemonicParsing="false" onAction="#StatCarton" prefHeight="25.0" prefWidth="155.0" text="Statistique_Carton">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="fxBS11" layoutX="61.0" layoutY="493.0" mnemonicParsing="false" onAction="#StatCorner" prefHeight="25.0" prefWidth="155.0" text="Statistique_Corner">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <TextField fx:id="filteredField" layoutX="496.0" layoutY="28.0" onAction="#ekteb" prefHeight="25.0" prefWidth="292.0" />
+     
+   </children>
+   <rotationAxis>
+      <Point3D />
+   </rotationAxis>
+   <cursor>
+   </cursor>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>
